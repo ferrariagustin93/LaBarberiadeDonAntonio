@@ -504,7 +504,8 @@ input:focus {
     .classy-nav-container .classy-navbar .classynav ul li a {
       font-size: 16px;
       text-transform: capitalize;
-      color: #252525; }
+      /*color: #252525; */
+      color:#FFFFFF;}
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px; } }
@@ -522,7 +523,8 @@ input:focus {
       height: 42px;
       line-height: 42px;
       padding: 0 30px;
-      color: #252525; }
+      /*color: #252525;*/
+      color:#FFFFFF; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
         color: #bca858; }
 
@@ -548,7 +550,8 @@ input:focus {
 .classynav ul li.has-down > a::after,
 .classynav ul li.has-down.active > a::after,
 .classynav ul li.megamenu-item > a::after {
-  color: #252525; }
+  /*color: #252525;*/ 
+ color:#FFFFFF;}
 
 .breakpoint-off .classynav ul li .dropdown,
 .breakpoint-off .classynav ul li .megamenu {

@@ -549,7 +549,8 @@ input:focus {
     .classy-nav-container .classy-navbar .classynav ul li a {
       font-size: 16px;
       text-transform: capitalize;
-      color: #252525; }
+      /*color: #252525;*/
+      color: #FFFFFF; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px; } }
