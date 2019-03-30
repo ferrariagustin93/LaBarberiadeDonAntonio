@@ -59,6 +59,19 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.justify-content {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .justify-content{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; 
+    }
+}
 
 .classy-navbar {
   width: 100%;
@@ -435,7 +448,8 @@ img {
   display: block;
 }
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: #343a40;
   position: fixed;
   top: 0;
   left: -310px;
@@ -535,7 +549,8 @@ img {
 }
 /* Dark Theme CSS */
 .dark.classy-nav-container {
-  background-color: #192a56;
+  background-color: #343A40;
+
 }
 .dark.classy-nav-container a {
   color: rgba(255, 255, 255, 0.7);
@@ -544,10 +559,10 @@ img {
   color: #ffffff;
 }
 .dark .classynav ul li .dropdown {
-  background-color: #192a56;
+  background-color: #343A40;
 }
 .dark .classynav ul li .megamenu {
-  background-color: #192a56;
+  background-color: #343A40;
 }
 .dark .classynav ul li .megamenu .single-mega.cn-col-5,
 .dark .classynav ul li .megamenu .single-mega.cn-col-4,
@@ -565,13 +580,13 @@ img {
   background-color: #ffffff;
 }
 .dark.breakpoint-on .classy-navbar .classy-menu {
-  background-color: #192a56;
+  background-color: #343A40;
 }
 .dark .classycloseIcon .cross-wrap span {
   background-color: #ffffff;
 }
 .dark.breakpoint-on .classynav>ul>li>a {
-  background-color: #192a56;
+  background-color: #343A40;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-5, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-4, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-3 {
