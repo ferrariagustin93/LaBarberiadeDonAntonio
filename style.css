@@ -381,13 +381,15 @@ input:focus {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px; }
+  margin-bottom: 50px; 
+  }
   .section-heading h2 {
     font-size: 42px;
     text-transform: capitalize;
     margin-bottom: 15px;
     display: block;
-    line-height: 1.2; }
+    line-height: 1.2; 
+    color: #FFFFFF;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .section-heading h2 {
         font-size: 36px; } }
@@ -398,7 +400,8 @@ input:focus {
       .section-heading h2 {
         font-size: 30px; } }
   .section-heading p {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #FFFFFF; }
   .section-heading span {
     position: absolute;
     top: 50%;
@@ -1290,15 +1293,18 @@ input:focus {
     margin-bottom: 10px;
     -webkit-transition-duration: 300ms;
     -o-transition-duration: 300ms;
-    transition-duration: 300ms; }
+    transition-duration: 300ms; 
+    color:#FFFFFF;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-service-area h5 {
         font-size: 18px; } }
   .single-service-area p {
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+    color:#FFFFFF;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-service-area p {
-        font-size: 14px; } }
+        font-size: 14px; 
+        } }
   .single-service-area:hover, .single-service-area:focus {
     border-color: transparent;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
