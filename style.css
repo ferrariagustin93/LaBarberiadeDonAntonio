@@ -1177,7 +1177,7 @@ input:focus {
   .akame-our-expert-area::before {
     position: absolute;
     width: 100%;
-    height: 70%;
+    height: 100%;
     content: '';
     top: 0;
     right: 0;
@@ -1186,7 +1186,8 @@ input:focus {
   .akame-our-expert-area .side-thumbnail {
     position: absolute;
     width: 555px;
-    height: 70%;
+    /*height: 70%;*/
+    height: 100%;
     right: 50%;
     top: 0;
     z-index: -1;
