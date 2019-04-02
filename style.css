@@ -1201,7 +1201,10 @@ input:focus {
     height: 100%; }
   .akame-our-expert-area.about-us-page .side-thumbnail {
     height: 100%; }
-
+  .akame-our-expert-area .section-heading h2, .akame-our-expert-area .section-heading p
+  {
+    color: #000000;
+  }
 .our-certificate-area {
   position: relative;
   z-index: 1; }
