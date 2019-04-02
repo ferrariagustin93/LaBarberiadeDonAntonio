@@ -201,6 +201,9 @@ button.mfp-arrow {
 .bg-gray {
   background-color: #f6f9f9 !important; }
 
+.bg-dark {
+  background-color: #343a40 !important; }
+
 textarea:focus,
 input:focus {
   outline: none; }
