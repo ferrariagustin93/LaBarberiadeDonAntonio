@@ -671,12 +671,14 @@ input:focus {
       font-size: 14px; } }
   .single-footer-widget .widget-title {
     font-size: 22px;
-    color: #252525;
+    /*color: #252525;*/
+    color: #FFFFFF;
     margin-bottom: 30px;
     display: block;
     text-transform: capitalize; }
   .single-footer-widget .open-time p {
-    margin-bottom: 8px; }
+    margin-bottom: 8px; 
+    color:#FFFFFF;}
     .single-footer-widget .open-time p:last-child {
       margin-bottom: 0; }
   .single-footer-widget .social-info {
@@ -707,7 +709,8 @@ input:focus {
       .single-footer-widget .social-info a:focus, .single-footer-widget .social-info a:hover {
         background-color: #bca858; }
   .single-footer-widget .contact-address p {
-    margin-bottom: 8px; }
+    margin-bottom: 8px; 
+    color: #FFFFFF;}
     .single-footer-widget .contact-address p:last-child {
       margin-bottom: 0; }
   .single-footer-widget .footer-logo {
