@@ -679,6 +679,14 @@ input:focus {
     margin-bottom: 30px;
     display: block;
     text-transform: capitalize; }
+    
+    .titulo-empresaWeb{
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+    }
+
+
   .single-footer-widget .open-time p {
     margin-bottom: 8px; 
     color:#FFFFFF;}
@@ -725,7 +733,8 @@ input:focus {
   z-index: 1; }
   .copywrite-text p {
     font-size: 16px;
-    color: #6e6e6e;
+    /*color: #6e6e6e;*/
+    color: #FFFFFF;
     margin-bottom: 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .copywrite-text p {
