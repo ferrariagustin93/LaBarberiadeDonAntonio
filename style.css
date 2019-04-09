@@ -496,6 +496,28 @@ input:focus {
       background-color: #252525;
       color: #ffffff; }
 
+/* :: 6.5 Principal CSS*/
+.navPrincipal
+{
+  position: fixed; 
+  background-color: black;
+  width: 100%;
+  opacity: 50%;
+}
+.principal 
+{
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 700px; 
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  border-bottom: 2px solid #e5e5e5;
+  background-image: url("img/barbershop/dan-gold-272398-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; 
+}
 /* :: 7.0 Header CSS */
 
    /*linea blanca antes del header*/
@@ -504,6 +526,7 @@ input:focus {
          }
 
 .header-area {
+  /*position: relative;*/
   position: relative;
   z-index: 10;
   width: 100%;
@@ -519,6 +542,10 @@ input:focus {
     height: 50px; 
     /*min-height: 10px;*/
     background-size: 50px;
+    /*background-size: 100%;
+    background-image: url("./img/barbershop/fondo_2.jpg");
+    background-repeat: no-repeat;*/
+
     }
     @media only screen and (max-width: 767px) {
       .header-area .top-header-area {
@@ -1085,7 +1112,8 @@ input:focus {
 /* :: 14.0 Portfolio CSS */
 .akame-portfolio {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+  }
 
 .portfolio-menu .btn {
   padding: 5px 10px;
